@@ -17,18 +17,18 @@
 
 echo -e "Installing Packages Requirements."
 
-sudo apt-get -y install build-essential libncurses-dev python-dev uuid uuid-dev libglib2.0-dev libyajl-dev bcc gcc-multilib iasl libpci-dev mercurial flex bison libaio-dev
-
+sudo apt-get -y install build-essential bridge-utils libncurses-dev python-dev uuid uuid-dev libglib2.0-dev libyajl-dev bcc gcc-multilib iasl libpci-dev mercurial flex bison libaio-dev
+ 
 sudo apt-get -y install patch libncurses5-dev python bin86 bzip2 module-init-tools make gcc libc6-dev libcurl3 iproute
-
+ 
 sudo apt-get -y install gettext libpixman-1-dev
-
-sudo apt-get -y install gawk libcurl4-openssl-dev transfig tgif
-
+ 
+sudo apt-get -y install gawk libcurl4-openssl-dev iproute transfig tgif
+ 
 sudo apt-get -y install texinfo texlive-latex-base texlive-latex-recommended texlive-fonts-extra texlive-fonts-recommended pciutils-dev
-
+ 
 sudo apt-get -y install zlib1g-dev python-twisted libvncserver-dev libsdl-dev
-
+ 
 sudo apt-get -y install libbz2-dev e2fslibs-dev git-core ocaml ocaml-findlib libx11-dev xz-utils
 
 apt-get build-dep xen
